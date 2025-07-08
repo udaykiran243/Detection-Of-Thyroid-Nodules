@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Malignant', 'benign']
+
+roboflow:
+  workspace: project-iyhcv
+  project: thyroid-q6kdo
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-iyhcv/thyroid-q6kdo/dataset/5
